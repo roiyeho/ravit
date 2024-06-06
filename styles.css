@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('images/bento_cake.jpg');
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+  direction: rtl;
+  text-align: right;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #d67c8c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.introduction p, .details p, .contact p {
+  margin: 10px 0;
+}
+
+.contact p {
+  font-weight: bold;
+}
